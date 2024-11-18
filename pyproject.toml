@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sagittal_average"
+version = "0.1.0"
+description = "A package to calculate sagittal averages"
+authors = [{ name = "Your Name", email = "your.email@example.com" }]
+license = { text = "MIT" }
+
+[tool.setuptools]
+packages = ["sagittal_average"]
